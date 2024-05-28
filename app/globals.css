@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bookman+Old+Style&family=Franklin+Gothic&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  @apply font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-headline;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
